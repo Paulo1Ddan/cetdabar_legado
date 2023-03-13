@@ -1,0 +1,9 @@
+.containerNotFound{
+    margin: 270px 0 200px 0;
+    text-align: center;
+    color: #1C391D;
+}
+
+.containerNotFound h1{
+    font-size: 5rem;
+}

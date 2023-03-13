@@ -1,0 +1,18 @@
+<section class="containerBlog padraoSite">
+    {loop="$blog"}
+        <div class="blog">
+            <div class="imgBlog">
+                <img src="res/site/assets/blog/capa/{$value.imgcapa}" alt="">
+            </div>
+            <div class="txtBlog">
+                <h3>
+                    {$value.tituloartigo}
+                </h3>
+                <p>
+                    {autoescape="off"}{$value.artigo}{/autoescape}
+                </p>
+                <a href="/cetdabar/blog/{$value.idartigo}"><button class="btnTxtBlog" btn-bg-color="secondary">Ver mais</button></a>
+            </div>
+        </div>
+    {/loop}
+</section>

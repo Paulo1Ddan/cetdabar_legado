@@ -1,0 +1,20 @@
+    <section class="containerCurso padraoSite">
+        <div class="imgCurso">
+            <img src="/cetdabar/res/site/{$curso.imgcurso}" alt="">
+        </div>
+        <div class="txtCurso">
+            <h3>{$curso.nomecurso}</h3>
+            <p class="descCurso">
+                {autoescape="off"}{$curso.desccurso}{/autoescape}
+            </p>
+            <p class="instrutorCurso">
+                <span>Instrutor: </span>{$curso.instrutor}
+            </p>
+            <p class="duracaoCurso">
+                <span>Duração do curso:</span> {$curso.duracao}
+            </p>
+            <div class="matricula">
+                <p class="txtMatricula">Para se matricular, entre em contato pelo <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5511930546947&text={$curso.msgcurso}" target="_blank">Whatsapp</a> ou <a class="facebook" href="https://www.facebook.com/CETDABAR" target="_blank">Facebook</a></p>
+            </div>
+        </div>
+    </section>

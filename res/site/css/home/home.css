@@ -1,0 +1,405 @@
+/* Banner */
+.banner{
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.slick-dots{
+    margin-bottom: 50px;
+}
+
+/* Cursos */
+.cursos{
+    margin-bottom: 70px;
+}
+.cursos .tituloCursos{
+    text-align: center;
+    font-size: 30px;
+    color:  #1C391D;
+}
+.cursos .containerCursos{
+    width: 100%;
+    overflow: hidden;
+}
+.cursos .containerCursos .curso{
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(115, 115, 115);
+    
+}
+.cursos .containerCursos .curso:last-child{
+    border-bottom: none;
+}
+.cursos .containerCursos .curso .imgCurso{
+    width: 300px;
+    height: 300px;
+}
+.cursos .containerCursos .curso img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.cursos .containerCursos .curso .descCurso{
+    width: 80%;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cursos .containerCursos .curso .descCurso .txtCurso h3{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #1C391D;
+}
+.cursos .containerCursos .curso .descCurso .txtCurso p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.cursos .containerCursos .curso .btnCurso{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+/* Contato */
+.contato{
+    min-height: 550px;
+    background: url("../../assets/contato/bannerContato.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 10px 0;
+}
+.contato .tituloContato{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+.contato .txtForm{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.contato .formContato{
+    display: flex;
+}
+.contato .formContato .inputs{
+    width: 50%;
+    padding: 1%;
+}
+.contato .formContato .inputs input{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0, 0.6);
+    outline: none;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contato .formContato .boxMensagem{
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.contato .formContato .boxMensagem .formTextarea{
+    height: 100px;
+}
+.contato .formContato .boxMensagem textarea {
+    margin: 10px 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0, 0.6);
+    outline: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    border-radius: 5px;
+    resize: none;
+}
+.contato .formContato .boxMensagem .formBtn{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contato .formContato .boxMensagem .formBtn button{
+    width: 400px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 550;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contato .socialContato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.contato .socialContato a{
+    color: #fff !important;
+}
+.contato .socialContato .contatoFacebook{
+    min-width: 240px;
+    height: 50px;
+    background: #1771e6;
+    margin: 0 50px;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contato .socialContato .contatoFacebook:hover{
+    background: #4c8ce0;
+}
+.contato .socialContato .contatoFacebook i{
+    margin-right: 20px;
+}
+.contato .socialContato .contatoWhatsapp{
+    width: 240px;
+    height: 50px;
+    background: #24d468;
+    margin: 0 50px;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contato .socialContato .contatoWhatsapp:hover{
+    background: #40c472;
+}
+.contato .socialContato .contatoWhatsapp i{
+    margin-right: 20px;
+}
+.contato .socialContato .contatoInstagram{
+    width: 240px;
+    height: 50px;
+    background: #CF2872;
+    margin: 0 50px;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contato .socialContato .contatoInstagram:hover{
+    background: #c3427c;
+}
+.contato .socialContato .contatoInstagram i{
+    margin-right: 20px;
+}
+
+/* Sobre */
+.sobre{
+    margin-top: 70px;
+}
+.sobre .tituloSobre{
+    text-align: center;
+    color: #1C391D;
+}
+.sobre .containerSobre{
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre .containerSobre .imgSobre{
+    max-width: 1000px;
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+.sobre .containerSobre .imgSobre img{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.sobre .containerSobre .txtSobre{
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.sobre .containerSobre .btnSobre button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer
+}
+
+/* Depoimentos */
+.depoimentos{
+    min-height: 500px;
+    width: 100%;
+    background: url("../../assets/depoimentos/bannerDepoimentos.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    margin-bottom: 70px;
+}
+.depoimentos .tituloDepo{
+    color: #fff;
+    text-align: center;
+}
+.depoimentos .containerDepo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.depoimentos .containerDepo .depo{
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.depoimentos .containerDepo .depo .imgDepo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    align-self: center;
+}
+.depoimentos .containerDepo .depo .imgDepo img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.depoimentos .containerDepo .depo .txtDepo{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+
+/* Responsivo */
+@media screen and (max-width: 1400px){
+    .cursos .containerCursos{
+        padding: 0 2%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .depoimentos .containerDepo{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px){
+    /* Cursos */
+    .cursos .containerCursos .curso{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cursos .containerCursos .curso:last-child{
+        flex-direction: column;
+    }
+    .cursos .containerCursos .curso .descCurso .txtCurso h3{
+        text-align: center;
+    }
+    .cursos .containerCursos .curso:last-child .descCurso .txtCurso h3{
+        text-align: center;
+    }
+    .cursos .containerCursos .curso:last-child .descCurso .txtCurso p{
+        text-align: start;
+    }
+    .cursos .containerCursos .curso .btnCurso{
+        align-self: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Contato */
+    .contato .socialContato .contatoFacebook{
+        margin: 0 25px;
+    }
+    .contato .socialContato .contatoWhatsapp{
+        margin: 0 25px;
+    }
+}
+@media screen and (max-width:720px){
+    .contato .formContato{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato .formContato .inputs{
+        width: 100%;
+    }
+    .contato .formContato .boxMensagem{
+        width: 100%;
+    }
+}
+@media screen and (max-width:590px){
+    .contato .socialContato .contatoFacebook{
+        margin: 10px;
+    }
+    .contato .socialContato .contatoWhatsapp{
+        margin: 10px;
+    }
+    .contato .socialContato .contatoInstagram{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+    .banner{
+        height: 400px;
+    }
+    .banner img{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 420px){
+    .sobre .containerSobre .imgSobre{
+        height: 250px;
+    }
+    .sobre .containerSobre .imgSobre img{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cursos .containerCursos .curso .imgCurso{
+        width: 250px;
+        height: 250px;
+    }
+    .cursos .containerCursos .curso .imgCurso img{
+        width: 250px;
+        height: 250px;
+    }
+}

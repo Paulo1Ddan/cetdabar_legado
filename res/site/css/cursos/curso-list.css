@@ -1,0 +1,66 @@
+.containerCurso{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding: 20px 0;
+    display: flex;
+}
+.containerCurso .imgCurso{
+    width: 450px;
+    height: 450px;
+    margin: 0 10px;
+}
+.containerCurso .imgCurso img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.36); 
+    box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.36);
+}
+.containerCurso .txtCurso{
+    margin: 20px 10px;
+}
+.containerCurso .txtCurso h3{
+    color: #1C391D;
+}
+.containerCurso .txtCurso p{
+    margin-top: 10px !important;
+}
+.containerCurso .txtCurso ul{
+    list-style: disc;
+    padding-left: 35px !important;
+}
+.containerCurso .txtCurso ol{
+    list-style: decimal;
+    padding-left: 35px !important;
+}
+.containerCurso .txtCurso p span{
+    font-weight: 600;
+    color: #1C391D;
+}
+.containerCurso .txtCurso .matricula .whatsapp{
+    font-weight: 600;
+    color: #24CC63 !important;
+}
+.containerCurso .txtCurso .matricula .facebook{
+    font-weight: 600;
+    color: #3982E4 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .containerCurso{
+        flex-direction: column;
+    }
+    .containerCurso .imgCurso{
+        align-self: center;
+        margin: 0;
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 320px){
+    .containerCurso .imgCurso{
+        width: 250px;
+        height: 250px;
+    }
+}

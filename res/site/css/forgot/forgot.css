@@ -1,0 +1,72 @@
+.containerForgot{
+    padding: 150px 20px;
+}
+.containerForgot .padraoSite{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.containerForgot .boxForgot{
+    margin-top: 100px;
+    background: #fff;
+    max-width: 800px;
+    width: 100%;
+}
+.containerForgot .boxForgot .titleForgot{
+    text-align: center;
+}
+
+.containerForgot .boxForgot .forgotForm{
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+}
+.containerForgot .boxForgot .forgotForm .imgForgot{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerForgot .boxForgot .forgotForm .imgForgot img{
+    width: 200px;
+    height: 200px;
+}
+.containerInput{
+    width: 50%;
+}
+
+.containerInput p{
+    margin-bottom: 10px !important;
+}
+.containerInput p a{
+    text-decoration: underline !important;
+}
+
+.containerInput .inputForgot{
+    display: flex;
+    flex-direction: column;
+}
+.containerInput .inputForgot input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    padding: 3% 1%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(101, 101, 101);
+}
+.containerInput .btnForgot{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .containerForgot .boxForgot .forgotForm .imgForgot{
+        display: none;
+    }
+    .containerInput{
+        width: 100%;
+    }
+}

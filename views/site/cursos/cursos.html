@@ -1,0 +1,23 @@
+    <div class="containerCursos">
+        <div class="padraoSite">
+            <h3>Nossos cursos</h3>
+            {loop="$cursos"}
+                <div class="curso">
+                    <div class="imgCurso">
+                        <img src="/cetdabar/res/site/{$value.imgcurso}" alt="">
+                    </div>
+                    <div class="descCurso">
+                        <div class="txtCurso">
+                            <h3>
+                                {$value.nomecurso}
+                            </h3>
+                            <article>
+                                {autoescape="off"}{$value.desccurso}{/autoescape}
+                            </article>
+                        </div>
+                        <a href="/cetdabar/cursos/{$value.idcurso}"><button btn-bg-color="secondary" class="btnCurso">Conferir</button></a>
+                    </div>
+                </div>
+            {/loop}
+        </div>
+    </div>

@@ -1,0 +1,72 @@
+.containerLogin{
+    padding: 150px 20px;
+}
+.containerLogin .padraoSite{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.containerLogin .boxLogin{
+    margin-top: 100px;
+    background: #fff;
+    max-width: 800px;
+    width: 100%;
+}
+.containerLogin .boxLogin .titleLogin{
+    text-align: center;
+}
+
+.containerLogin .boxLogin .loginForm{
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+}
+.containerLogin .boxLogin .loginForm .imgLogin{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerLogin .boxLogin .loginForm .imgLogin img{
+    width: 200px;
+    height: 200px;
+}
+.containerInput{
+    width: 50%;
+}
+
+.containerInput p{
+    margin-bottom: 10px !important;
+}
+.containerInput p a{
+    text-decoration: underline !important;
+}
+
+.containerInput .inputLogin{
+    display: flex;
+    flex-direction: column;
+}
+.containerInput .inputLogin input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    padding: 3% 1%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(101, 101, 101);
+}
+.containerInput .btnLogin{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .containerLogin .boxLogin .loginForm .imgLogin{
+        display: none;
+    }
+    .containerInput{
+        width: 100%;
+    }
+}
